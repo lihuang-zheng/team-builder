@@ -19,7 +19,7 @@ const TeamForm = props => {
 
   return (
     <form onSubmit={submitForm}>
-      <label htmlFor="name">Team Name</label>
+      <label htmlFor="name">Member Name</label>
       <input
         id="name"
         type="text"
@@ -31,7 +31,7 @@ const TeamForm = props => {
       <label htmlFor="email">Email</label>
       <input
         id="email"
-        type="text"
+        type="email"
         name="email"
         onChange={handleChanges}
         placeholder="abc@abc.com"
