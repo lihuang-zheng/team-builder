@@ -25,7 +25,7 @@ const TeamForm = props => {
         type="text"
         name="name"
         onChange={handleChanges}
-        placeholder="name"
+        placeholder="Apple Seed"
         value={member.name}
       />
       <label htmlFor="email">Email</label>
@@ -34,6 +34,7 @@ const TeamForm = props => {
         type="text"
         name="email"
         onChange={handleChanges}
+        placeholder="abc@abc.com"
         value={member.email}
       />
       <label htmlFor="role">Role</label>
@@ -42,9 +43,12 @@ const TeamForm = props => {
         type="text"
         name="role"
         onChange={handleChanges}
+        placeholder="full-stack-dev"
         value={member.role}
       />
       <button type="submit">Add Member</button>
     </form>
   );
 };
+
+export default TeamForm;

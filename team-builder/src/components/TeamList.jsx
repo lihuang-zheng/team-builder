@@ -1,6 +1,6 @@
 import React from "react";
 
-const Team = props => {
+const TeamList = props => {
   return (
     <div className="member-list">
       {props.team.map(member => (
@@ -13,3 +13,5 @@ const Team = props => {
     </div>
   );
 };
+
+export default TeamList;

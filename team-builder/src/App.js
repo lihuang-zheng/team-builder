@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import TeamList from "./components/TeamList";
-import TeamForm from "./components/TeamList";
+import TeamForm from "./components/TeamForm";
 
 function App() {
   const [team, setTeam] = useState([
